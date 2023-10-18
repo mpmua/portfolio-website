@@ -42,31 +42,36 @@ function App() {
               alt=""
               srcset=""
             />
-            <img
-              width="50"
-              src="https://res.infoq.com/news/2020/07/capacitor-2-auth-cors/en/headerimage/IONIC-capacitor-1596113791077.jpg"
-              alt=""
-              srcset=""
-            />
-            <img
-              width="50"
-              height="60"
-              src="https://res.infoq.com/news/2020/07/capacitor-2-auth-cors/en/headerimage/IONIC-capacitor-1596113791077.jpg"
-              alt=""
-              srcset=""
-            />
-            <img
-              width="50"
-              height="60"
-              src="https://res.infoq.com/news/2020/07/capacitor-2-auth-cors/en/headerimage/IONIC-capacitor-1596113791077.jpg"
-              alt=""
-              srcset=""
-            />
           </section>
-          <section className="buttons-wrap flex justify-around">
-            <button className="single-btn">btn</button>
-            <button className="single-btn">btn</button>
-            <button className="single-btn">btn</button>
+          <section className="store-links-wrap  flex justify-around">
+            <ul>
+              <li className="store-link">
+                <a
+                  href="https://apps.apple.com/us/app/my-tasbeeh-app/id6449438967"
+                  target="_blank"
+                >
+                  <img
+                    width="40%"
+                    src="/assets/img/app-store-icon.webp"
+                    alt=""
+                    srcset=""
+                  />
+                </a>
+              </li>
+              <li className="store-link">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.tasbeeh.my"
+                  target="_blank"
+                >
+                  <img
+                    width="40%"
+                    src="/assets/img/google-play-icon.webp"
+                    alt=""
+                    srcset=""
+                  />
+                </a>
+              </li>
+            </ul>
           </section>
         </section>
 
@@ -82,7 +87,7 @@ function App() {
               />
             </div>
             <div>
-              <h1 className="text-4xl mb-5">My Tasbeeh App</h1>
+              <h1 className="text-4xl mb-5">Pure Weather</h1>
               <p>
                 mi proin sed libero enim sed faucibus turpis in eu mi bibendum
                 neque egestas congue quisque egestas diam in arcu cursus euismod
@@ -129,10 +134,35 @@ function App() {
               srcset=""
             />
           </section>
-          <section className="buttons-wrap flex justify-around">
-            <button className="single-btn">btn</button>
-            <button className="single-btn">btn</button>
-            <button className="single-btn">btn</button>
+          <section className="store-links-wrap  flex justify-around">
+            <ul>
+              <li className="store-link">
+                <a
+                  href="https://apps.apple.com/us/app/my-tasbeeh-app/id6449438967"
+                  target="_blank"
+                >
+                  <img
+                    width="40%"
+                    src="/assets/img/app-store-icon.webp"
+                    alt=""
+                    srcset=""
+                  />
+                </a>
+              </li>
+              <li className="store-link">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.tasbeeh.my"
+                  target="_blank"
+                >
+                  <img
+                    width="40%"
+                    src="/assets/img/google-play-icon.webp"
+                    alt=""
+                    srcset=""
+                  />
+                </a>
+              </li>
+            </ul>
           </section>
         </section>
 
@@ -148,7 +178,7 @@ function App() {
               />
             </div>
             <div>
-              <h1 className="text-4xl mb-5">My Tasbeeh App</h1>
+              <h1 className="text-4xl mb-5">Mini Games Collection</h1>
               <p>
                 mi proin sed libero enim sed faucibus turpis in eu mi bibendum
                 neque egestas congue quisque egestas diam in arcu cursus euismod
@@ -195,10 +225,35 @@ function App() {
               srcset=""
             />
           </section>
-          <section className="buttons-wrap flex justify-around">
-            <button className="single-btn">btn</button>
-            <button className="single-btn">btn</button>
-            <button className="single-btn">btn</button>
+          <section className="store-links-wrap flex justify-around">
+            <ul>
+              <li className="store-link">
+                <a
+                  href="https://apps.apple.com/us/app/my-tasbeeh-app/id6449438967"
+                  target="_blank"
+                >
+                  <img
+                    width="40%"
+                    src="/assets/img/app-store-icon.webp"
+                    alt=""
+                    srcset=""
+                  />
+                </a>
+              </li>
+              <li className="store-link">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.tasbeeh.my"
+                  target="_blank"
+                >
+                  <img
+                    width="40%"
+                    src="/assets/img/google-play-icon.webp"
+                    alt=""
+                    srcset=""
+                  />
+                </a>
+              </li>
+            </ul>
           </section>
         </section>
       </section>

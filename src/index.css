@@ -26,3 +26,7 @@ body {
   max-width: 800px;
   color: white;
 }
+
+li {
+  list-style: none;
+}
