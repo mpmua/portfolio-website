@@ -20,11 +20,15 @@
   -webkit-text-size-adjust: 100%;
 }
 
+html {
+}
+
 body {
   margin-inline: auto;
   min-height: 100vh;
   max-width: 800px;
-  color: white;
+  color: #525f7f;
+  background: #f6f9fc;
 }
 
 li {

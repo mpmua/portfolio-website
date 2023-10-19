@@ -7,13 +7,13 @@ function App() {
       <section className="page-wrap">
         <section className="py-24">Reserved for hero</section>
 
-        <section className="single-app-info-section-wrap mb-32">
+        <section className="single-app-info-section-wrap mb-32 bg-white w-11/12 mx-auto shadow-2xl">
           <section className="app-img-and-text-wrap flex flex-row justify-between items-center max-w-screen-xl gap-11 mb-10">
             <div>
               <img
                 width="2800"
                 height="2600"
-                src="/assets/img/reactjs-developer-221732.png"
+                src="/assets/img/mta-showcase.png"
                 alt=""
                 srcset=""
               />
@@ -30,22 +30,22 @@ function App() {
             </div>
           </section>
           <section className="tech-logos-wrap flex justify-around mb-10">
-            <img
-              width="100"
-              src="/assets/img/590-5903330_reactjs-logo-react-js-transparent-icon-hd-png-removebg-preview.png"
-              alt=""
-              srcset=""
-            />
-            <img
-              width="120"
-              src="/assets/img/105104854-e5e42e80-5a67-11eb-8cb8-46fccb079062-removebg-preview.png"
-              alt=""
-              srcset=""
-            />
+            <span className="project-technology border-solid border-2 border-sky-200 rounded-lg p-1">
+              HTML5
+            </span>
+            <span className="project-technology border-solid border-2 border-sky-200 rounded-lg p-1">
+              CSS3
+            </span>
+            <span className="project-technology border-solid border-2 border-sky-200 rounded-lg p-1">
+              ReactJS
+            </span>
+            <span className="project-technology border-solid border-2 border-sky-200 rounded-lg p-1">
+              Capacitor
+            </span>
           </section>
-          <section className="store-links-wrap  flex justify-around">
-            <ul>
-              <li className="store-link">
+          <section className="store-links-section">
+            <ul className="store-links-ul flex justify-end">
+              <li className="store-link w-auto">
                 <a
                   href="https://apps.apple.com/us/app/my-tasbeeh-app/id6449438967"
                   target="_blank"
@@ -119,23 +119,9 @@ function App() {
               alt=""
               srcset=""
             />
-            <img
-              width="50"
-              height="60"
-              src="https://res.infoq.com/news/2020/07/capacitor-2-auth-cors/en/headerimage/IONIC-capacitor-1596113791077.jpg"
-              alt=""
-              srcset=""
-            />
-            <img
-              width="50"
-              height="60"
-              src="https://res.infoq.com/news/2020/07/capacitor-2-auth-cors/en/headerimage/IONIC-capacitor-1596113791077.jpg"
-              alt=""
-              srcset=""
-            />
           </section>
-          <section className="store-links-wrap  flex justify-around">
-            <ul>
+          <section className="store-links-section">
+            <ul className="store-links-ul flex justify-around">
               <li className="store-link">
                 <a
                   href="https://apps.apple.com/us/app/my-tasbeeh-app/id6449438967"
@@ -210,23 +196,9 @@ function App() {
               alt=""
               srcset=""
             />
-            <img
-              width="50"
-              height="60"
-              src="https://res.infoq.com/news/2020/07/capacitor-2-auth-cors/en/headerimage/IONIC-capacitor-1596113791077.jpg"
-              alt=""
-              srcset=""
-            />
-            <img
-              width="50"
-              height="60"
-              src="https://res.infoq.com/news/2020/07/capacitor-2-auth-cors/en/headerimage/IONIC-capacitor-1596113791077.jpg"
-              alt=""
-              srcset=""
-            />
           </section>
-          <section className="store-links-wrap flex justify-around">
-            <ul>
+          <section className="store-links-section">
+            <ul className="store-links-ul flex justify-around">
               <li className="store-link">
                 <a
                   href="https://apps.apple.com/us/app/my-tasbeeh-app/id6449438967"
