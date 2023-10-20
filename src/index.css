@@ -12,7 +12,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  background-color: #242424;
+  /* background-color: #242424; */
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -20,15 +20,15 @@
   -webkit-text-size-adjust: 100%;
 }
 
-html {
-}
-
 body {
   margin-inline: auto;
   min-height: 100vh;
-  max-width: 800px;
-  color: #525f7f;
   background: #f6f9fc;
+  max-width: 1200px;
+  color: #525f7f;
+}
+
+#page-wrap {
 }
 
 li {
