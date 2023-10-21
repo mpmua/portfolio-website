@@ -8,19 +8,20 @@ function App() {
       <section className="py-24">Reserved for hero</section>
 
       <section className="single-app-info-section-wrap mb-32 bg-white w-11/12 mx-auto shadow-2xl">
-        <section className="app-img-and-text-wrap flex flex-row justify-around items-center max-w-screen-xl gap-11 mb-10 ">
-          <div className="bg-slate-500">
+        <section className="app-img-and-text-wrap flex flex-col lg:flex-row mb-10">
+          <div className="showcase-image flex items-center justify-center bg-slate-500">
             <img
-              width="2000"
-              // height="2600"
+              className="lg:w-10/12 w-8/12"
               src="/assets/img/mta-showcase.png"
               alt=""
               srcset=""
             />
           </div>
-          <div>
-            <h1 className="text-4xl mb-5">My Tasbeeh App</h1>
-            <p className="pb-12">
+          <div className="lg:w-1/2 p-5 show-text-wrap">
+            <h1 className="text-4xl text-center lg:text-left mb-5">
+              My Tasbeeh App
+            </h1>
+            <p className="mb-10">
               mi proin sed libero enim sed faucibus turpis in eu mi bibendum
               neque egestas congue quisque egestas diam in arcu cursus euismod
               quis viverra nibh cras pulvinar mattis nunc sed blandit libero
