@@ -23,7 +23,7 @@ function App() {
   return (
     <section className="page-wrap w-11/12 mx-auto">
       <section className="hero h-[80vh] flex items-center justify-center text-center mb-10 bg-slate-500 text-white">
-        <div className="name-text text-4xl pl-10">
+        <div className="name-text text-4xl ">
           <p>Hi, i'm</p>
           <h1 className="text-8xl mb-4">Mohammed</h1>
           <h1 className="text-6xl">Front End Web Developer</h1>
@@ -37,7 +37,7 @@ function App() {
           <div className="showcase-image flex items-center justify-center bg-slate-500">
             <img
               className="lg:w-10/12 w-8/12 my-9"
-              src="/src/img/mta-showcase.png"
+              src="../src/img/mta-showcase.png"
               alt=""
               srcset=""
             />
