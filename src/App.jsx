@@ -22,20 +22,22 @@ function App() {
   }, []);
   return (
     <section className="page-wrap w-11/12 mx-auto">
-      <section className="hero h-[80vh] flex items-center justify-start mb-10">
-        <div className="name-text text-4xl text-center lg:text-left pl-10">
+      <section className="hero h-[80vh] flex items-center justify-center text-center mb-10 bg-slate-500 text-white">
+        <div className="name-text text-4xl pl-10">
           <p>Hi, i'm</p>
           <h1 className="text-8xl mb-4">Mohammed</h1>
           <h1 className="text-6xl">Front End Web Developer</h1>
         </div>
       </section>
-
+      <section className="projects-text text-4xl text-center pb-14">
+        <h1>PROJECTS</h1>
+      </section>
       <section className="single-app-info-section-wrap mb-32 bg-white shadow-2xl">
         <section className="app-img-and-text-wrap flex flex-col lg:flex-row mb-10">
           <div className="showcase-image flex items-center justify-center bg-slate-500">
             <img
               className="lg:w-10/12 w-8/12 my-9"
-              src="/assets/img/mta-showcase.png"
+              src="/src/img/mta-showcase.png"
               alt=""
               srcset=""
             />
