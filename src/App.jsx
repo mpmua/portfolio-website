@@ -37,7 +37,7 @@ function App() {
           <div className="showcase-image flex items-center justify-center bg-slate-500">
             <img
               className="lg:w-10/12 w-8/12 my-9"
-              src="../src/img/mta-showcase.png"
+              src="/img/mta-showcase.png"
               alt=""
               srcset=""
             />
