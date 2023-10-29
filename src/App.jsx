@@ -37,7 +37,7 @@ function App() {
           <div className="showcase-image flex items-center justify-center bg-slate-500">
             <img
               className="lg:w-10/12 w-8/12 my-9"
-              src="/dist/img/mta-showcase-2.png"
+              src="../dist/img/mta-showcase.png"
               alt=""
               srcset=""
             />
@@ -138,7 +138,7 @@ function App() {
           <div className="showcase-image flex items-center justify-center bg-slate-500">
             <img
               className="lg:w-10/12 w-8/12 my-12"
-              src="/dist/img/pw-showcase.png"
+              src="../dist/img/pw-showcase.png"
               alt=""
               srcset=""
             />
@@ -226,7 +226,7 @@ function App() {
           <div className="showcase-image flex items-center justify-center bg-slate-500">
             <img
               className="lg:w-10/12 w-8/12 my-12"
-              src="/dist/img/mgc-showcase.png"
+              src="../dist/img/mgc-showcase.png"
               alt=""
               srcset=""
             />
