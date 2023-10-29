@@ -27,12 +27,17 @@ function App() {
           <p>Hi, i'm</p>
           <h1 className="text-8xl mb-4">Mohammed</h1>
           <h1 className="text-6xl">Front End Web Developer</h1>
+          <button class="text-3xl bg-transparent font-semibold py-2 px-4 mt-11 border border-white rounded-lg">
+            View Projects
+          </button>
         </div>
       </section>
-      <section className="projects-text text-4xl text-center pb-14">
-        <h1>PROJECTS</h1>
-      </section>
-      <section className="single-app-info-section-wrap mb-32 bg-white shadow-2xl">
+
+      <div className="project-heating-text-wrap flex flex-col justify-center items-center">
+        <h1 className="projects-text text-4xl text-center mt-10">PROJECTS</h1>
+        <div className="flex items-center justify-center w-[5%] border-solid border-2 border-slate-500 mt-5 mb-16"></div>
+      </div>
+      <section className="single-app-info-section-wrap mb-24 bg-white shadow-2xl">
         <section className="app-img-and-text-wrap flex flex-col lg:flex-row mb-10">
           <div className="showcase-image flex items-center justify-center bg-slate-500">
             <img
@@ -133,7 +138,7 @@ function App() {
         </section>
       </section>
 
-      <section className="single-app-info-section-wrap mb-32 bg-white shadow-2xl">
+      <section className="single-app-info-section-wrap  mb-24 bg-white shadow-2xl">
         <section className="app-img-and-text-wrap flex flex-col lg:flex-row mb-10">
           <div className="showcase-image flex items-center justify-center bg-slate-500">
             <img
@@ -221,7 +226,7 @@ function App() {
         </section>
       </section>
 
-      <section className="single-app-info-section-wrap mb-32 bg-white shadow-2xl">
+      <section className="single-app-info-section-wrap mb-24 bg-white shadow-2xl">
         <section className="app-img-and-text-wrap flex flex-col lg:flex-row mb-10">
           <div className="showcase-image flex items-center justify-center bg-slate-500">
             <img
