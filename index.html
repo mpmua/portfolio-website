@@ -2,12 +2,340 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <!-- <link rel="stylesheet" href="index.css" /> -->
+    <link href="output.css" rel="stylesheet" />
   </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+  <body class="bg-slate-700">
+    <section class="page-wrap w-8/12 mx-auto">
+      <section
+        class="hero h-[100vh] flex items-center justify-center text-center mb-10 text-white"
+      >
+        <div class="name-text text-4xl">
+          <p class="hero-text">Hi, i'm</p>
+          <h1 class="hero-text text-8xl mb-4">Mohammed</h1>
+          <h1 class="hero-text text-4xl">Front End Web Developer</h1>
+          <button
+            class="hero-btn text-2xl bg-transparent font-semibold py-2 px-4 mt-11 border border-white rounded-lg"
+          >
+            <a href="#project-heading-text-wrap">View Projects</a>
+          </button>
+        </div>
+      </section>
+
+      <div
+        id="project-heading-text-wrap"
+        class="flex flex-col justify-center items-center"
+      >
+        <h1 class="text-white projects-text text-4xl text-center mt-10">
+          PROJECTS
+        </h1>
+        <div
+          class="flex items-center justify-center w-[5%] border-solid border-2 border-white mt-5 mb-16"
+        ></div>
+      </div>
+      <section class="single-app-card mb-24 bg-white shadow-2xl">
+        <section class="app-img-and-text-wrap flex flex-col lg:flex-row mb-10">
+          <div
+            class="showcase-image flex items-center justify-center bg-slate-600"
+          >
+            <img
+              class="lg:w-10/12 w-8/12 my-9"
+              src="img/mta-showcase.png"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <div class="lg:w-1/2 p-5 show-text-wrap">
+            <h1 class="text-4xl text-center lg:text-left mb-5">
+              My Tasbeeh App
+            </h1>
+            <p class="mb-10">
+              mi proin sed libero enim sed faucibus turpis in eu mi bibendum
+              neque egestas congue quisque egestas diam in arcu cursus euismod
+              quis viverra nibh cras pulvinar mattis nunc sed blandit libero
+              volutpat sed cras ornare arcu dui vivamus arcu felis bibendum ut
+              tristique et egestas quis ipsum suspendisse ultrices
+            </p>
+            <div class="tech-logos-wrap flex mb-10 gap-3 flex-wrap">
+              <span
+                class="project-technology border-solid border-2 border-sky-200 rounded-lg p-2"
+              >
+                HTML5
+              </span>
+              <span
+                class="project-technology border-solid border-2 border-sky-200 rounded-lg p-2"
+              >
+                CSS3
+              </span>
+              <span
+                class="project-technology border-solid border-2 border-sky-200 rounded-lg p-2"
+              >
+                ReactJS
+              </span>
+              <span
+                class="project-technology border-solid border-2 border-sky-200 rounded-lg p-2"
+              >
+                Capacitor
+              </span>
+            </div>
+            <div class="store-links-section">
+              <ul class="store-links-ul flex gap-3 flex-wrap">
+                <li class="store-link w-auto">
+                  <a
+                    href="https://apps.apple.com/us/app/my-tasbeeh-app/id6449438967"
+                    target="_blank"
+                  >
+                    <span
+                      class="px-4 py-3 flex justify-around items-center gap-2 bg-slate-500 rounded-md shadow-md text-white text-sm cursor-pointer"
+                    >
+                      <FaFirefoxBrowser />
+                      <p>Live Demo</p>
+                    </span>
+                  </a>
+                </li>
+                <li class="store-link w-auto">
+                  <a
+                    href="https://apps.apple.com/us/app/my-tasbeeh-app/id6449438967"
+                    target="_blank"
+                  >
+                    <span
+                      class="px-4 py-3 flex justify-around items-center gap-2 bg-slate-500 rounded-md shadow-md text-white text-sm cursor-pointer"
+                    >
+                      <FaGithub />
+                      <p>Source Code</p>
+                    </span>
+                  </a>
+                </li>
+                <li class="store-link">
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.tasbeeh.my"
+                    target="_blank"
+                  >
+                    <span
+                      class="px-4 py-3 flex justify-around items-center gap-2 bg-slate-500 rounded-md shadow-md text-white text-sm cursor-pointer"
+                    >
+                      <FaApple />
+                      <p>App Store</p>
+                    </span>
+                  </a>
+                </li>
+                <li class="store-link">
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.tasbeeh.my"
+                    target="_blank"
+                  >
+                    <span
+                      class="px-4 py-3 flex justify-around items-center gap-2 bg-slate-500 rounded-md shadow-md text-white text-sm cursor-pointer"
+                    >
+                      <FaPlay />
+                      <p>Play Store</p>
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="single-app-card mb-24 bg-white shadow-2xl">
+        <section class="app-img-and-text-wrap flex flex-col lg:flex-row mb-10">
+          <div
+            class="showcase-image flex items-center justify-center bg-slate-600"
+          >
+            <img
+              class="lg:w-10/12 w-8/12 my-12"
+              src="/img/pw-showcase.png"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <div class="lg:w-1/2 p-5 show-text-wrap">
+            <h1 class="text-4xl text-center lg:text-left mb-5">Pure Weather</h1>
+            <p class="mb-10">
+              mi proin sed libero enim sed faucibus turpis in eu mi bibendum
+              neque egestas congue quisque egestas diam in arcu cursus euismod
+              quis viverra nibh cras pulvinar mattis nunc sed blandit libero
+              volutpat sed cras ornare arcu dui vivamus arcu felis bibendum ut
+              tristique et egestas quis ipsum suspendisse ultrices
+            </p>
+            <div class="tech-logos-wrap flex mb-10 gap-3 flex-wrap">
+              <span
+                class="project-technology border-solid border-2 border-sky-200 rounded-lg p-2"
+              >
+                HTML5
+              </span>
+              <span
+                class="project-technology border-solid border-2 border-sky-200 rounded-lg p-2"
+              >
+                CSS3
+              </span>
+              <span
+                class="project-technology border-solid border-2 border-sky-200 rounded-lg p-2"
+              >
+                Javascript
+              </span>
+              <span
+                class="project-technology border-solid border-2 border-sky-200 rounded-lg p-2"
+              >
+                Capacitor
+              </span>
+            </div>
+            <div class="store-links-section">
+              <ul class="store-links-ul flex gap-3 flex-wrap">
+                <li class="store-link w-auto">
+                  <a
+                    href="https://apps.apple.com/us/app/my-tasbeeh-app/id6449438967"
+                    target="_blank"
+                  >
+                    <span
+                      class="px-4 py-3 flex justify-around items-center gap-2 bg-slate-500 rounded-md shadow-md text-white text-sm cursor-pointer"
+                    >
+                      <FaFirefoxBrowser />
+                      <p>Live Demo</p>
+                    </span>
+                  </a>
+                </li>
+                <li class="store-link w-auto">
+                  <a
+                    href="https://apps.apple.com/us/app/my-tasbeeh-app/id6449438967"
+                    target="_blank"
+                  >
+                    <span
+                      class="px-4 py-3 flex justify-around items-center gap-2 bg-slate-500 rounded-md shadow-md text-white text-sm cursor-pointer"
+                    >
+                      <FaGithub />
+                      <p>Source Code</p>
+                    </span>
+                  </a>
+                </li>
+
+                <li class="store-link">
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.tasbeeh.my"
+                    target="_blank"
+                  >
+                    <span
+                      class="px-4 py-3 flex justify-around items-center gap-2 bg-slate-500 rounded-md shadow-md text-white text-sm cursor-pointer"
+                    >
+                      <FaPlay />
+                      <p>Play Store</p>
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="single-app-card mb-24 bg-white shadow-2xl">
+        <section class="app-img-and-text-wrap flex flex-col lg:flex-row mb-10">
+          <div
+            class="showcase-image flex items-center justify-center bg-slate-600"
+          >
+            <img
+              class="lg:w-10/12 w-8/12 my-12"
+              src="/img/mgc-showcase.png"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <div class="lg:w-1/2 p-5 show-text-wrap">
+            <h1 class="text-4xl text-center lg:text-left mb-5">
+              Mini Games Collection
+            </h1>
+            <p class="mb-10">
+              mi proin sed libero enim sed faucibus turpis in eu mi bibendum
+              neque egestas congue quisque egestas diam in arcu cursus euismod
+              quis viverra nibh cras pulvinar mattis nunc sed blandit libero
+              volutpat sed cras ornare arcu dui vivamus arcu felis bibendum ut
+              tristique et egestas quis ipsum suspendisse ultrices
+            </p>
+            <div class="tech-logos-wrap flex mb-10 gap-3 flex-wrap">
+              <span
+                class="project-technology border-solid border-2 border-sky-200 rounded-lg p-2"
+              >
+                HTML5
+              </span>
+              <span
+                class="project-technology border-solid border-2 border-sky-200 rounded-lg p-2"
+              >
+                CSS3
+              </span>
+              <span
+                class="project-technology border-solid border-2 border-sky-200 rounded-lg p-2"
+              >
+                Javascript
+              </span>
+              <span
+                class="project-technology border-solid border-2 border-sky-200 rounded-lg p-2"
+              >
+                Capacitor
+              </span>
+            </div>
+            <div class="store-links-section">
+              <ul class="store-links-ul flex gap-3 flex-wrap">
+                <li class="store-link w-auto">
+                  <a
+                    href="https://apps.apple.com/us/app/my-tasbeeh-app/id6449438967"
+                    target="_blank"
+                  >
+                    <span
+                      class="px-4 py-3 flex justify-around items-center gap-2 bg-slate-500 rounded-md shadow-md text-white text-sm cursor-pointer"
+                    >
+                      <FaFirefoxBrowser />
+                      <p>Live Demo</p>
+                    </span>
+                  </a>
+                </li>
+                <li class="store-link w-auto">
+                  <a
+                    href="https://apps.apple.com/us/app/my-tasbeeh-app/id6449438967"
+                    target="_blank"
+                  >
+                    <span
+                      class="px-4 py-3 flex justify-around items-center gap-2 bg-slate-500 rounded-md shadow-md text-white text-sm cursor-pointer"
+                    >
+                      <FaGithub />
+                      <p>Source Code</p>
+                    </span>
+                  </a>
+                </li>
+
+                <li class="store-link">
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.tasbeeh.my"
+                    target="_blank"
+                  >
+                    <span
+                      class="px-4 py-3 flex justify-around items-center gap-2 bg-slate-500 rounded-md shadow-md text-white text-sm cursor-pointer"
+                    >
+                      <FaPlay />
+                      <p>Play Store</p>
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </section>
+      <div
+        class="project-heading-text-wrap flex flex-col justify-center items-center"
+      >
+        <h1 class="projects-text text-4xl text-center text-white">CONTACT</h1>
+        <div
+          class="flex items-center justify-center w-[5%] border-solid border-2 border-white mt-5"
+        ></div>
+        <div class="text-white ontact-links-wrap flex gap-10 my-24">
+          <p>email</p>
+          <p>LinkedIn</p>
+          <p>Github</p>
+        </div>
+      </div>
+    </section>
+    <script src="index.js"></script>
   </body>
 </html>
