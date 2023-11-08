@@ -8,7 +8,7 @@ html {
 
 .hero-text,
 .hero-btn {
-  animation: fadeInUp 2s ease-in;
+  animation: fadeInUp 0.2s ease-in;
 }
 
 @keyframes fadeInUp {
