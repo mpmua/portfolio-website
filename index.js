@@ -2,22 +2,6 @@ const pageWrapElement = document.querySelector(".page-wrap");
 const singleAppCard = document.querySelector(".single-app-card");
 const cardsSectionWrap = document.querySelector(".cards-section-wrap");
 
-{
-  /* 
-<a
-  href="https://pure-weather.netlify.app/settings.html"
-  target="_blank"
->
-  <span
-    class="px-4 py-3 flex justify-around items-center gap-2 bg-slate-500 rounded-md shadow-md text-white text-sm cursor-pointer"
-  >
-    <FaFirefoxBrowser />
-    <p>Live Demo</p>
-  </span>
-</a>
-*/
-}
-
 let isVisible = null;
 
 let options = {
@@ -47,16 +31,18 @@ cardsSectionWrap.innerHTML = projectsArray.map((item) => {
 
   const links = item.linksArray.map((item) => {
     const link = document.createElement("a");
+    link.href = item.link;
+    link.target = "_blank";
     const linkSpan = document.createElement("span");
     linkSpan.className =
       "px-4 py-3 flex justify-around items-center gap-2 bg-slate-500 rounded-md shadow-md text-white text-sm cursor-pointer";
     link.appendChild(linkSpan);
     const icon = document.createElement("span");
-    link.appendChild(icon);
+    icon.innerHTML = item.icon;
+    linkSpan.appendChild(icon);
     const linkText = document.createElement("p");
     linkText.textContent = item.text;
     linkSpan.appendChild(linkText);
-    console.log(item);
     return link.outerHTML;
   });
 
@@ -84,7 +70,7 @@ cardsSectionWrap.innerHTML = projectsArray.map((item) => {
             </div>
             <div class="project-links-section">
               <ul class="project-links-ul flex gap-3 flex-wrap">
-              <li class="project-link w-auto">${links.join("")}</li>
+               ${links.join("")}
               </ul>
             </div>
           </div>

@@ -7,22 +7,22 @@ const projectsArray = [
     linksArray: [
       {
         link: "https://pure-weather.netlify.app/settings.html",
-        icon: "FaFirefoxBrowser",
+        icon: "<FaFirefoxBrowser />",
         text: "Live Demo",
       },
       {
         link: "https://pure-weather.netlify.app/settings.html",
-        icon: "FaFirefoxBrowser",
+        icon: "<i class='fa-brands fa-apple'></i>",
         text: " Demo",
       },
       {
         link: "https://pure-weather.netlify.app/settings.html",
-        icon: "FaFirefoxBrowser",
+        icon: "<FaFirefoxBrowser />",
         text: "lol Demo",
       },
       {
         link: "https://pure-weather.netlify.app/settings.html",
-        icon: "FaFirefoxBrowser",
+        icon: "<FaFirefoxBrowser />",
         text: "Live Demo",
       },
     ],
@@ -35,12 +35,12 @@ const projectsArray = [
     linksArray: [
       {
         link: "https://pure-weather.netlify.app/settings.html",
-        icon: "Hello",
+        icon: "<FaFirefoxBrowser />",
         text: "Hey Demo",
       },
       {
         link: "https://pure-weather.netlify.app/settings.html",
-        icon: "Hello",
+        icon: "<FaFirefoxBrowser />",
         text: "no Demo",
       },
     ],
