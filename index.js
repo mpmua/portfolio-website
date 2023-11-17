@@ -2,11 +2,21 @@ const pageWrapElement = document.querySelector(".page-wrap");
 const singleAppCard = document.querySelector(".single-app-card");
 const cardsSectionWrap = document.querySelector(".cards-section-wrap");
 
-// <span
-//   class="project-technology border-solid border-2 border-sky-200 rounded-lg p-2 text-sm"
-// >
-//
-// </span>
+{
+  /* 
+<a
+  href="https://pure-weather.netlify.app/settings.html"
+  target="_blank"
+>
+  <span
+    class="px-4 py-3 flex justify-around items-center gap-2 bg-slate-500 rounded-md shadow-md text-white text-sm cursor-pointer"
+  >
+    <FaFirefoxBrowser />
+    <p>Live Demo</p>
+  </span>
+</a>
+*/
+}
 
 let isVisible = null;
 
@@ -35,6 +45,21 @@ cardsSectionWrap.innerHTML = projectsArray.map((item) => {
     return techSpan.outerHTML;
   });
 
+  const links = item.linksArray.map((item) => {
+    const link = document.createElement("a");
+    const linkSpan = document.createElement("span");
+    linkSpan.className =
+      "px-4 py-3 flex justify-around items-center gap-2 bg-slate-500 rounded-md shadow-md text-white text-sm cursor-pointer";
+    link.appendChild(linkSpan);
+    const icon = document.createElement("span");
+    link.appendChild(icon);
+    const linkText = document.createElement("p");
+    linkText.textContent = item.text;
+    linkSpan.appendChild(linkText);
+    console.log(item);
+    return link.outerHTML;
+  });
+
   return `<section class="single-app-card mb-24 bg-white shadow-2xl">
         <section class="app-img-and-text-wrap flex flex-col xl:flex-row mb-10">
           <div
@@ -57,48 +82,9 @@ cardsSectionWrap.innerHTML = projectsArray.map((item) => {
             <div class="tech-logos-wrap flex mb-10 gap-3 flex-wrap">
             ${techStack.join("")}
             </div>
-            <div class="store-links-section">
-              <ul class="store-links-ul flex gap-3 flex-wrap">
-                <li class="store-link w-auto">
-                  <a
-                    href="https://pure-weather.netlify.app/settings.html"
-                    target="_blank"
-                  >
-                    <span
-                      class="px-4 py-3 flex justify-around items-center gap-2 bg-slate-500 rounded-md shadow-md text-white text-sm cursor-pointer"
-                    >
-                      <FaFirefoxBrowser />
-                      <p>Live Demo</p>
-                    </span>
-                  </a>
-                </li>
-                <li class="source-code-link w-auto">
-                  <a
-                    href="https://github.com/mpmua/pure-weather/tree/main"
-                    target="_blank"
-                  >
-                    <span
-                      class="px-4 py-3 flex justify-around items-center gap-2 bg-slate-500 rounded-md shadow-md text-white text-sm cursor-pointer"
-                    >
-                      <FaGithub />
-                      <p>Source Code</p>
-                    </span>
-                  </a>
-                </li>
-
-                <li class="store-link">
-                  <a
-                    href="https://play.google.com/store/apps/details/Pure_Weather?id=com.weatherapp.pure"
-                    target="_blank"
-                  >
-                    <span
-                      class="px-4 py-3 flex justify-around items-center gap-2 bg-slate-500 rounded-md shadow-md text-white text-sm cursor-pointer"
-                    >
-                      <FaPlay />
-                      <p>Play Store</p>
-                    </span>
-                  </a>
-                </li>
+            <div class="project-links-section">
+              <ul class="project-links-ul flex gap-3 flex-wrap">
+              <li class="project-link w-auto">${links.join("")}</li>
               </ul>
             </div>
           </div>

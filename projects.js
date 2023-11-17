@@ -4,13 +4,45 @@ const projectsArray = [
     title: "Pure Weather",
     text: "An open source weather application that was built using HTML, CSS and Vanilla Javascript.",
     tech: ["HTML5", "CSS3", "Javascript", "Vite", "Capacitor"],
-    // links: [""]
+    linksArray: [
+      {
+        link: "https://pure-weather.netlify.app/settings.html",
+        icon: "FaFirefoxBrowser",
+        text: "Live Demo",
+      },
+      {
+        link: "https://pure-weather.netlify.app/settings.html",
+        icon: "FaFirefoxBrowser",
+        text: " Demo",
+      },
+      {
+        link: "https://pure-weather.netlify.app/settings.html",
+        icon: "FaFirefoxBrowser",
+        text: "lol Demo",
+      },
+      {
+        link: "https://pure-weather.netlify.app/settings.html",
+        icon: "FaFirefoxBrowser",
+        text: "Live Demo",
+      },
+    ],
   },
   {
     img: "/img/pw-showcase.png",
     title: "Pure Bliss",
     text: "An open source weather application that was built using HTML, CSS and Vanilla Javascript.",
     tech: ["CSS3", "LOL", "Vite", "Capacitor"],
-    // links: [""]
+    linksArray: [
+      {
+        link: "https://pure-weather.netlify.app/settings.html",
+        icon: "Hello",
+        text: "Hey Demo",
+      },
+      {
+        link: "https://pure-weather.netlify.app/settings.html",
+        icon: "Hello",
+        text: "no Demo",
+      },
+    ],
   },
 ];
