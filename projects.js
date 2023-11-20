@@ -78,4 +78,35 @@ const projectsArray = [
       },
     ],
   },
+  {
+    img: "/img/portfolio-showcase.png",
+    title: "Portfolio",
+    text: "This page! Responsive website built with HTML, Tailwind CSS and Javascript. Each project is stored as an an individual object within a seperate javascript file and then auto-generated into the html for easy maintenance",
+    tech: ["HTML5", "Tailwind CSS", "Javascript"],
+    linksArray: [
+      {
+        link: "https://github.com/mpmua/portfolio-website",
+        icon: githubIcon,
+        text: "Source",
+      },
+    ],
+  },
+  {
+    img: "/img/portfolio-showcase.png",
+    title: "Guess The Word",
+    text: "A simple guess the word game",
+    tech: ["HTML5", "CSS", "Javascript"],
+    linksArray: [
+      {
+        link: "https://github.com/mpmua/portfolio-website",
+        icon: githubIcon,
+        text: "Source",
+      },
+      {
+        link: "https://mini-games-collection.netlify.app/",
+        icon: browserIcon,
+        text: "Live Demo",
+      },
+    ],
+  },
 ];
