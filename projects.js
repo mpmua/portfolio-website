@@ -81,7 +81,7 @@ const projectsArray = [
   {
     img: "/img/portfolio-showcase.png",
     title: "Portfolio",
-    text: "This page! Responsive website built with HTML, Tailwind CSS and Javascript. Each project is stored as an an individual object within a seperate javascript file and then auto-generated into the html for easy maintenance",
+    text: "This page! Responsive website built with HTML, Tailwind CSS and Javascript. Each project is stored as an an individual object within a seperate javascript file and then auto-generated into html for easy maintenance",
     tech: ["HTML5", "Tailwind CSS", "Javascript"],
     linksArray: [
       {
