@@ -30,7 +30,7 @@ const projectsArray = [
   {
     img: "/img/mta-showcase.png",
     title: "My Tasbeeh App",
-    text: "An open source Tasbeeh app",
+    text: "An open source Tasbeeh application.",
     tech: ["HTML5", "CSS3", "Javascript", "Vite", "Capacitor"],
     linksArray: [
       {
