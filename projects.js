@@ -7,8 +7,8 @@ const projectsArray = [
   {
     img: "/img/pw-showcase.png",
     title: "Pure Weather",
-    text: "An open source weather application that was built using HTML, CSS and Vanilla Javascript.",
-    tech: ["HTML5", "CSS3", "Javascript", "Vite", "Capacitor"],
+    text: "An open source weather application which offers daily / hourly weather forecasts, weather alerts and dynamic theme changes based on live weather. it utilizes the OpenWeatherMap API.",
+    tech: ["HTML5", "CSS3", "Javascript", "Vite", "CapacitorJS"],
     linksArray: [
       {
         link: "https://pure-weather.netlify.app/",
@@ -30,8 +30,8 @@ const projectsArray = [
   {
     img: "/img/mta-showcase.png",
     title: "My Tasbeeh App",
-    text: "An open source Tasbeeh application.",
-    tech: ["HTML5", "CSS3", "Javascript", "Vite", "Capacitor"],
+    text: "An open source Tasbeeh application. This application simplifies tally management by allowing users to effortlessly add, delete, and edit tallies, while offering options for a dark / light theme, daily counter resets, and daily notifications",
+    tech: ["HTML5", "CSS3", "Javascript", "Vite", "CapacitorJS"],
     linksArray: [
       {
         link: "https://mytasbeehapp.netlify.app/",
@@ -58,8 +58,8 @@ const projectsArray = [
   {
     img: "/img/mgc-showcase.png",
     title: "Mini Games Collection",
-    text: "Four mini games built using HTML, CSS and Vanilla Javascript.",
-    tech: ["HTML5", "CSS3", "Javascript", "Vite", "Capacitor"],
+    text: "An application featuring four mini-games, storing user scores locally and updating high scores when required.",
+    tech: ["HTML5", "CSS3", "Javascript", "Vite", "CapacitorJS"],
     linksArray: [
       {
         link: "https://mini-games-collection.netlify.app/",
@@ -81,7 +81,7 @@ const projectsArray = [
   {
     img: "/img/portfolio-showcase.png",
     title: "Portfolio",
-    text: "This page! Responsive website built with HTML, Tailwind CSS and Javascript. Each project is stored as an an individual object within a seperate javascript file and then auto-generated into html for easy maintenance",
+    text: "This page! Responsive website built with HTML, Tailwind CSS and Javascript. Each project is stored as an an individual object within a seperate javascript file and then auto-generated into html for easy maintenance.",
     tech: ["HTML5", "Tailwind CSS", "Javascript"],
     linksArray: [
       {
