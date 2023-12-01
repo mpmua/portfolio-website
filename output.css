@@ -549,11 +549,6 @@ video {
   margin-bottom: 6rem;
 }
 
-.my-9 {
-  margin-top: 2.25rem;
-  margin-bottom: 2.25rem;
-}
-
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
@@ -607,8 +602,12 @@ video {
   width: 5%;
 }
 
-.w-auto {
-  width: auto;
+.w-10\/12 {
+  width: 83.333333%;
+}
+
+.w-11\/12 {
+  width: 91.666667%;
 }
 
 .cursor-pointer {
@@ -753,8 +752,23 @@ video {
   line-height: 1rem;
 }
 
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .font-semibold {
   font-weight: 600;
+}
+
+.text-slate-700 {
+  --tw-text-opacity: 1;
+  color: rgb(51 65 85 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -780,7 +794,7 @@ html {
 
 .hero-text,
 .hero-btn {
-  animation: fadeInUp 2s ease-in;
+  animation: fadeInUp 0.2s ease-in;
 }
 
 @keyframes fadeInUp {
@@ -795,21 +809,25 @@ html {
   }
 }
 
-@media (min-width: 1024px) {
-  .lg\:w-1\/2 {
-    width: 50%;
+@media (min-width: 640px) {
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
-  .lg\:w-10\/12 {
-    width: 83.333333%;
+  .sm\:text-8xl {
+    font-size: 6rem;
+    line-height: 1;
   }
 
-  .lg\:flex-row {
-    flex-direction: row;
+  .sm\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 
-  .lg\:text-left {
-    text-align: left;
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 }
 
