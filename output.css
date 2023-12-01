@@ -549,11 +549,6 @@ video {
   margin-bottom: 6rem;
 }
 
-.my-9 {
-  margin-top: 2.25rem;
-  margin-bottom: 2.25rem;
-}
-
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
@@ -605,10 +600,6 @@ video {
 
 .w-\[5\%\] {
   width: 5%;
-}
-
-.w-auto {
-  width: auto;
 }
 
 .cursor-pointer {
@@ -757,6 +748,11 @@ video {
   font-weight: 600;
 }
 
+.text-slate-700 {
+  --tw-text-opacity: 1;
+  color: rgb(51 65 85 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -780,36 +776,18 @@ html {
 
 .hero-text,
 .hero-btn {
-  animation: fadeInUp 2s ease-in;
+  animation: fadeInUp 0.9s ease-in;
 }
 
 @keyframes fadeInUp {
   0% {
     opacity: 0;
-    transform: translateY(15%);
+    transform: translateY(10%);
   }
 
   100% {
     opacity: 1;
     transform: translateY(0%);
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:w-1\/2 {
-    width: 50%;
-  }
-
-  .lg\:w-10\/12 {
-    width: 83.333333%;
-  }
-
-  .lg\:flex-row {
-    flex-direction: row;
-  }
-
-  .lg\:text-left {
-    text-align: left;
   }
 }
 
