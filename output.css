@@ -780,13 +780,13 @@ html {
 
 .hero-text,
 .hero-btn {
-  animation: fadeInUp 0.2s ease-in;
+  animation: fadeInUp 0.9s ease-in;
 }
 
 @keyframes fadeInUp {
   0% {
     opacity: 0;
-    transform: translateY(15%);
+    transform: translateY(10%);
   }
 
   100% {
