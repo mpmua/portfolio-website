@@ -60,13 +60,13 @@ cardsSectionWrap.innerHTML = projectsArray
             />
           </div>
           <div class="xl:w-1/2 p-5 show-text-wrap">
-            <h1 class="text-slate-700 text-4xl text-center xl:text-left mb-5">${
+            <h1 class="text-slate-600 text-4xl text-center xl:text-left mb-5">${
               item.title
             }</h1>
-            <p class="mb-10 ">
+            <p class="mb-10 text-slate-600">
              ${item.text}
             </p>
-            <div class="tech-logos-wrap flex mb-10 gap-3 flex-wrap">
+            <div class="tech-logos-wrap flex mb-10 gap-3 flex-wrap text-slate-600">
             ${techStack.join("")}
             </div>
             <div class="project-links-section">
