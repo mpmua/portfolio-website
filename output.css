@@ -748,6 +748,16 @@ video {
   line-height: 1rem;
 }
 
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -847,6 +857,16 @@ html {
 
   .sm\:text-5xl {
     font-size: 3rem;
+    line-height: 1;
+  }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .sm\:text-8xl {
+    font-size: 6rem;
     line-height: 1;
   }
 }
