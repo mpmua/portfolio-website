@@ -20,33 +20,34 @@ let observer = new IntersectionObserver(callback, options);
 
 // observer.observe(singleAppCard);
 
-cardsSectionWrap.innerHTML = projectsArray.map((item) => {
-  const techStack = item.tech.map((item) => {
-    const techSpan = document.createElement("span");
-    techSpan.className =
-      "project-technology border-solid border-2 border-sky-200 rounded-lg p-2 text-sm";
-    techSpan.textContent = item;
-    return techSpan.outerHTML;
-  });
+cardsSectionWrap.innerHTML = projectsArray
+  .map((item) => {
+    const techStack = item.tech.map((item) => {
+      const techSpan = document.createElement("span");
+      techSpan.className =
+        "project-technology border-solid border-2 border-sky-200 rounded-lg p-2 text-sm";
+      techSpan.textContent = item;
+      return techSpan.outerHTML;
+    });
 
-  const links = item.linksArray.map((item) => {
-    const link = document.createElement("a");
-    link.href = item.link;
-    link.target = "_blank";
-    const linkSpan = document.createElement("span");
-    linkSpan.className =
-      "px-4 py-3 flex justify-around items-center gap-2 bg-slate-500 rounded-md shadow-md text-white text-sm cursor-pointer";
-    link.appendChild(linkSpan);
-    const icon = document.createElement("span");
-    icon.innerHTML = item.icon;
-    linkSpan.appendChild(icon);
-    const linkText = document.createElement("p");
-    linkText.textContent = item.text;
-    linkSpan.appendChild(linkText);
-    return link.outerHTML;
-  });
+    const links = item.linksArray.map((item) => {
+      const link = document.createElement("a");
+      link.href = item.link;
+      link.target = "_blank";
+      const linkSpan = document.createElement("span");
+      linkSpan.className =
+        "px-4 py-3 flex justify-around items-center gap-2 bg-slate-500 rounded-md shadow-md text-white text-sm cursor-pointer";
+      link.appendChild(linkSpan);
+      const icon = document.createElement("span");
+      icon.innerHTML = item.icon;
+      linkSpan.appendChild(icon);
+      const linkText = document.createElement("p");
+      linkText.textContent = item.text;
+      linkSpan.appendChild(linkText);
+      return link.outerHTML;
+    });
 
-  return `<section class="single-app-card mb-24 bg-white shadow-2xl">
+    return `<section class="single-app-card mb-24 bg-white shadow-2xl">
         <section class="app-img-and-text-wrap flex flex-col xl:flex-row mb-10">
           <div
             class="showcase-image flex items-center justify-center bg-slate-600 xl:w-1/2"
@@ -76,4 +77,5 @@ cardsSectionWrap.innerHTML = projectsArray.map((item) => {
           </div>
         </section>
       </section>`;
-});
+  })
+  .join("");
