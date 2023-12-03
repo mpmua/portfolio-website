@@ -594,20 +594,16 @@ video {
   height: 100vh;
 }
 
+.w-10\/12 {
+  width: 83.333333%;
+}
+
 .w-8\/12 {
   width: 66.666667%;
 }
 
 .w-\[5\%\] {
   width: 5%;
-}
-
-.w-9\/12 {
-  width: 75%;
-}
-
-.w-10\/12 {
-  width: 83.333333%;
 }
 
 .cursor-pointer {
@@ -737,29 +733,24 @@ video {
   line-height: 2.5rem;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-semibold {
@@ -810,9 +801,8 @@ html {
 }
 
 @media (min-width: 640px) {
-  .sm\:text-8xl {
-    font-size: 6rem;
-    line-height: 1;
+  .sm\:flex {
+    display: flex;
   }
 
   .sm\:text-2xl {
@@ -823,6 +813,11 @@ html {
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .sm\:text-8xl {
+    font-size: 6rem;
+    line-height: 1;
   }
 }
 
