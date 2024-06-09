@@ -20,11 +20,11 @@ const projectsArray = [
         icon: githubIcon,
         text: "Source",
       },
-      {
-        link: "https://play.google.com/store/apps/details/Pure_Weather?id=com.weatherapp.pure",
-        icon: googleIcon,
-        text: "Play Store",
-      },
+      // {
+      //   link: "https://play.google.com/store/apps/details/Pure_Weather?id=com.weatherapp.pure",
+      //   icon: googleIcon,
+      //   text: "Play Store",
+      // },
     ],
   },
   {
