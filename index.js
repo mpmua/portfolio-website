@@ -25,7 +25,7 @@ cardsSectionWrap.innerHTML = projectsArray
     const techStack = item.tech.map((item) => {
       const techSpan = document.createElement("span");
       techSpan.className =
-        "project-technology border-solid border-2 border-sky-200 rounded-lg p-2 text-sm";
+        "p-2 text-sm border-2 border-solid rounded-lg project-technology border-sky-200";
       techSpan.textContent = item;
       return techSpan.outerHTML;
     });
@@ -36,7 +36,7 @@ cardsSectionWrap.innerHTML = projectsArray
       link.target = "_blank";
       const linkSpan = document.createElement("span");
       linkSpan.className =
-        "px-4 py-3 flex justify-around items-center gap-2 bg-slate-500 rounded-md shadow-md text-white text-sm cursor-pointer";
+        "flex items-center justify-around gap-2 px-4 py-3 text-sm text-white rounded-md shadow-md cursor-pointer bg-slate-500";
       link.appendChild(linkSpan);
       const icon = document.createElement("span");
       icon.innerHTML = item.icon;
