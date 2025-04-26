@@ -33,24 +33,6 @@ const projectsArray = [
     ],
   },
   {
-    img: "./img/pw-showcase.png",
-    title: "Pure Weather",
-    text: "An open source weather application which offers daily / hourly weather forecasts, weather alerts and dynamic theme changes based on live weather. it utilizes the OpenWeatherMap API.",
-    tech: ["HTML5", "CSS3", "Javascript", "CapacitorJS"],
-    linksArray: [
-      {
-        link: "https://pure-weather.netlify.app/",
-        icon: browserIcon,
-        text: "Live Demo",
-      },
-      {
-        link: "https://github.com/mpmua/pure-weather",
-        icon: githubIcon,
-        text: "Source",
-      },
-    ],
-  },
-  {
     img: "./img/mta-showcase.png",
     title: "My Tasbeeh App",
     text: "An open source Tasbeeh application. This application simplifies tally management by allowing users to effortlessly add, delete, and edit tallies, while offering options for a dark / light theme, daily counter resets, and daily notifications",
@@ -75,6 +57,24 @@ const projectsArray = [
         link: "https://apps.apple.com/in/app/my-tasbeeh-app/id6449438967",
         icon: appleIcon,
         text: "App Store",
+      },
+    ],
+  },
+  {
+    img: "./img/pw-showcase.png",
+    title: "Pure Weather",
+    text: "An open source weather application which offers daily / hourly weather forecasts, weather alerts and dynamic theme changes based on live weather. it utilizes the OpenWeatherMap API.",
+    tech: ["HTML5", "CSS3", "Javascript", "CapacitorJS"],
+    linksArray: [
+      {
+        link: "https://pure-weather.netlify.app/",
+        icon: browserIcon,
+        text: "Live Demo",
+      },
+      {
+        link: "https://github.com/mpmua/pure-weather",
+        icon: githubIcon,
+        text: "Source",
       },
     ],
   },
