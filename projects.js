@@ -8,7 +8,7 @@ const projectsArray = [
     img: "./img/msa-showcase.png",
     title: "My Salah App",
     text: "An open source application which assists users in keeping track of their Prayers and gaining insights into their Prayer habits.",
-    tech: ["ReactJS", "Typescript", "Tailwind CSS", "CapacitorJS"],
+    tech: ["ReactJS", "Typescript", "Tailwind CSS", "SQLite", "CapacitorJS"],
     linksArray: [
       {
         link: "https://mysalahapp.netlify.app/",
