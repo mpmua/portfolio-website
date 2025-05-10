@@ -36,7 +36,7 @@ const projectsArray = [
     img: "./img/mta-showcase.png",
     title: "My Tasbeeh App",
     text: "An open source Tasbeeh application. This application simplifies tally management by allowing users to effortlessly add, delete, and edit tallies, while offering options for a dark / light theme, daily counter resets, and daily notifications",
-    tech: ["ReactJS", "CapacitorJS"],
+    tech: ["ReactJS", "CapacitorJS", "Cypress"],
     linksArray: [
       {
         link: "https://mytasbeehapp.netlify.app/",
