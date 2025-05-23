@@ -60,42 +60,42 @@ const projectsArray = [
       },
     ],
   },
-  {
-    img: "./img/pw-showcase.png",
-    title: "Pure Weather",
-    text: "An open source weather application which offers daily / hourly weather forecasts, weather alerts and dynamic theme changes based on live weather. it utilizes the OpenWeatherMap API.",
-    tech: ["HTML5", "CSS3", "Javascript", "CapacitorJS"],
-    linksArray: [
-      {
-        link: "https://pure-weather.netlify.app/",
-        icon: browserIcon,
-        text: "Live Demo",
-      },
-      {
-        link: "https://github.com/mpmua/pure-weather",
-        icon: githubIcon,
-        text: "Source",
-      },
-    ],
-  },
-  {
-    img: "./img/mgc-showcase.png",
-    title: "Mini Games Collection",
-    text: "An application featuring four mini-games, storing user scores locally and updating high scores when required.",
-    tech: ["HTML5", "CSS3", "Javascript", "CapacitorJS"],
-    linksArray: [
-      {
-        link: "https://mini-games-collection.netlify.app/",
-        icon: browserIcon,
-        text: "Live Demo",
-      },
-      {
-        link: "https://github.com/mpmua/mini-games-collection",
-        icon: githubIcon,
-        text: "Source",
-      },
-    ],
-  },
+  // {
+  //   img: "./img/pw-showcase.png",
+  //   title: "Pure Weather",
+  //   text: "An open source weather application which offers daily / hourly weather forecasts, weather alerts and dynamic theme changes based on live weather. it utilizes the OpenWeatherMap API.",
+  //   tech: ["HTML5", "CSS3", "Javascript", "CapacitorJS"],
+  //   linksArray: [
+  //     {
+  //       link: "https://pure-weather.netlify.app/",
+  //       icon: browserIcon,
+  //       text: "Live Demo",
+  //     },
+  //     {
+  //       link: "https://github.com/mpmua/pure-weather",
+  //       icon: githubIcon,
+  //       text: "Source",
+  //     },
+  //   ],
+  // },
+  // {
+  //   img: "./img/mgc-showcase.png",
+  //   title: "Mini Games Collection",
+  //   text: "An application featuring four mini-games, storing user scores locally and updating high scores when required.",
+  //   tech: ["HTML5", "CSS3", "Javascript", "CapacitorJS"],
+  //   linksArray: [
+  //     {
+  //       link: "https://mini-games-collection.netlify.app/",
+  //       icon: browserIcon,
+  //       text: "Live Demo",
+  //     },
+  //     {
+  //       link: "https://github.com/mpmua/mini-games-collection",
+  //       icon: githubIcon,
+  //       text: "Source",
+  //     },
+  //   ],
+  // },
   {
     img: "./img/portfolio-showcase.png",
     title: "Portfolio",
