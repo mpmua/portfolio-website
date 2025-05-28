@@ -312,13 +312,13 @@ a {
   flex-wrap: wrap;
 }
 
-/* .project-links ul a:hover {
+.project-links ul a {
   transition: transform 0.2s ease;
 }
 
 .project-links ul a:hover {
-  transform: scale(1.05);
-} */
+  transform: translateY(-2px);
+}
 
 .project-link {
   display: flex;
