@@ -105,6 +105,10 @@ a {
   color: #747fe0;
 }
 
+.hero-title::before {
+  content: ">\A0";
+}
+
 .hero-title span {
   background-color: rgba(116, 127, 224, 0.65);
   animation: caret 1s steps(1) infinite;
@@ -416,9 +420,14 @@ a {
 
 /* MEDIA QUERIES */
 
+@media (max-width: 767px) {
+  .hero-title {
+    font-size: 2.3em;
+  }
+}
 @media (max-width: 1280px) {
   .page-wrap {
-    padding: 0 40px;
+    padding: 0 20px;
   }
   .navbar-wrap {
     justify-content: center;
