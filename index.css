@@ -233,7 +233,6 @@ a {
 
 .projects-container {
   margin: 0 auto;
-  font-family: Camphor, Open Sans, Segoe UI, sans-serif;
 }
 
 .projects-container > :nth-child(3) img {
@@ -291,6 +290,11 @@ a {
   line-height: 27px;
   color: #525f7f;
   /* font-size: 1.2rem; */
+}
+
+.project-content-container h3,
+p {
+  font-family: Camphor, Open Sans, Segoe UI, sans-serif;
 }
 
 .tech-span {
