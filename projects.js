@@ -7,7 +7,7 @@ const projectsArray = [
   {
     img: "./img/msa-showcase.png",
     title: "My Salah App",
-    text: "A React app with 500+ active users and a 4.8★ rating, designed to help users track and improve their daily prayer habits. Built for fast, offline use with local SQLite storage, it features a custom calendar analytics dashboard to visualize habit streaks and user consistency. Focused on clean UX and smooth animations to boost engagement and retention.",
+    text: "A prayer habit tracker built with React, used by 500+ active users and rated 4.8★ across app stores. It works fully offline thanks to local SQLite storage and includes a custom-built calendar view to help users spot streaks and stay on track. I focused on a clean interface and smooth animations to keep the experience simple and engaging.",
     tech: ["ReactJS", "Typescript", "Tailwind CSS", "SQLite", "CapacitorJS"],
     linksArray: [
       {
@@ -35,7 +35,7 @@ const projectsArray = [
   {
     img: "./img/mta-showcase.png",
     title: "My Tasbeeh App",
-    text: "A React counter app with 500+ active users and a 4.9★ rating, engineered for a smooth, distraction-free experience. Features include offline persistence, daily reminders, and automatic counter resets to encourage consistent use. Built with clean UI design and validated by comprehensive Cypress end-to-end tests to ensure reliability.",
+    text: "A simple, focused counter app built with React and used by 500+ active users, with a 4.9★ rating across app stores. Designed for offline use with daily reminders and auto-reset features to build consistent habits. I kept the interface clean and implemented end-to-end testing with Cypress.",
     tech: ["ReactJS", "Typescript", "CapacitorJS", "Cypress"],
     linksArray: [
       {
@@ -63,7 +63,7 @@ const projectsArray = [
   {
     img: "./img/1.png",
     title: "Task Manager",
-    text: "A full-stack task manager built as part of an interview assignment. It focuses on clear UX and real-world workflows like status updates and deadlines. I wrote comprehensive unit tests with Jest, achieving 100% backend and 97% frontend coverage. The project was designed to demonstrate how I approach real-world products: clean code, solid testing, and a strong focus on user experience.",
+    text: "A full-stack task manager built for a job interview assignment, designed to reflect real-world workflows like status updates and deadlines. I focused on clean UX and wrote unit tests with Jest, hitting 100% coverage on the backend and 97% on the frontend.",
     tech: ["ReactJS", "Express.js", "Typescript", "SQLite", "Jest"],
     linksArray: [
       {
