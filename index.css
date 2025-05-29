@@ -110,6 +110,7 @@ a {
 }
 
 .hero-title span {
+  /* width: 8px; */
   background-color: rgba(116, 127, 224, 0.65);
   animation: caret 1s steps(1) infinite;
 }
@@ -233,6 +234,10 @@ a {
 .projects-container {
   margin: 0 auto;
   font-family: Camphor, Open Sans, Segoe UI, sans-serif;
+}
+
+.projects-container > :nth-child(3) img {
+  width: 90%;
 }
 
 .project-card {
@@ -423,7 +428,7 @@ a {
 
 @media (max-width: 767px) {
   .hero-title {
-    font-size: 2rem;
+    font-size: 2.3rem;
   }
 }
 @media (max-width: 1280px) {

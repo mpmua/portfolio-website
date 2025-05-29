@@ -3,11 +3,19 @@ const projectsContainer = document.querySelector(".projects-container");
 
 let isVisible = null;
 
-let options = {
-  root: pageContainer,
-  rootMargin: "0px",
-  threshold: 1.0,
-};
+const text = "Mohammed Patel";
+const el = document.querySelector(".hero-title");
+let i = 0;
+
+function type() {
+  if (i <= text.length) {
+    el.innerHTML = text.slice(0, i) + "<span>&nbsp;</span>";
+    i++;
+    setTimeout(type, 50);
+  }
+}
+
+type();
 
 projectsContainer.innerHTML = projectsArray
   .map((item) => {
