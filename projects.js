@@ -60,6 +60,19 @@ const projectsArray = [
       },
     ],
   },
+  {
+    img: "./img/task-manager-showcase.png",
+    title: "Task Manager",
+    text: "A full-stack task manager built as part of an interview assignment. It focuses on clear UX and real-world workflows like status updates and deadlines. I wrote comprehensive unit tests with Jest, achieving 100% backend and 97% frontend coverage. The project was designed to demonstrate how I approach real-world products: clean code, solid testing, and a strong focus on user experience.",
+    tech: ["ReactJS", "Express.js", "Typescript", "SQLite", "Jest"],
+    linksArray: [
+      {
+        link: "https://github.com/mpmua/task-manager",
+        icon: githubIcon,
+        text: "Source",
+      },
+    ],
+  },
   // {
   //   img: "./img/pw-showcase.png",
   //   title: "Pure Weather",

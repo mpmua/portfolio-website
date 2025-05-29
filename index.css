@@ -262,7 +262,7 @@ a {
 
 .project-image-container img {
   display: block;
-  width: 66%;
+  width: 75%;
   margin: 3rem 0;
   height: auto;
   max-width: 100%;
@@ -316,15 +316,16 @@ a {
   flex-wrap: wrap;
 }
 
-.project-links ul a {
+/* .project-links ul a {
   transition: transform 0.2s ease;
 }
 
 .project-links ul a:hover {
   transform: translateY(-2px);
-}
+} */
 
 .project-link {
+  font-family: Monaco, Consolas, Lucida Console, monospace !important;
   display: flex;
   align-items: center;
   justify-content: space-around;
