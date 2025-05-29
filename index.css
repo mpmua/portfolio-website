@@ -334,7 +334,7 @@ p {
 } */
 
 .project-link {
-  font-family: Monaco, Consolas, Lucida Console, monospace !important;
+  font-family: Camphor, Open Sans, Segoe UI, sans-serif;
   display: flex;
   align-items: center;
   justify-content: space-around;
