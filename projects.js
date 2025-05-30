@@ -36,7 +36,7 @@ const projectsArray = [
     img: "./img/mta-showcase.png",
     title: "My Tasbeeh App",
     text: "A simple, focused counter app built with React and used by 500+ active users, with a 4.9★ rating across app stores. Designed for offline use with daily reminders and auto-reset features to build consistent habits. I kept the interface clean and implemented end-to-end testing with Cypress.",
-    tech: ["ReactJS", "Typescript", "CapacitorJS", "Cypress"],
+    tech: ["ReactJS", "Typescript", "CSS3", "CapacitorJS", "Cypress"],
     linksArray: [
       {
         link: "https://mytasbeehapp.netlify.app/",
@@ -64,7 +64,14 @@ const projectsArray = [
     img: "./img/task-manager-showcase.png",
     title: "Task Manager",
     text: "A full-stack task manager built for a job interview assignment, designed to reflect real-world workflows like status updates and deadlines. I focused on clean UX and wrote unit tests with Jest, hitting 100% coverage on the backend and 97% on the frontend.",
-    tech: ["ReactJS", "Express.js", "Typescript", "SQLite", "Jest"],
+    tech: [
+      "ReactJS",
+      "Express.js",
+      "Typescript",
+      "Tailwind CSS",
+      "SQLite",
+      "Jest",
+    ],
     linksArray: [
       {
         link: "https://github.com/mpmua/task-manager",
