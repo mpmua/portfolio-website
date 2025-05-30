@@ -183,7 +183,7 @@ a {
 }
 
 .input-statement::before {
-  content: ">\A0";
+  content: "> ";
 }
 
 .input-statement {
@@ -196,14 +196,6 @@ a {
 
 .statement:last-child {
   padding-bottom: 60px;
-}
-
-.input-statement::before {
-  content: ">\A0";
-}
-
-.input-statement {
-  color: #f7f7f7;
 }
 
 .input-statement span {
