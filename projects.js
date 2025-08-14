@@ -7,8 +7,15 @@ const projectsArray = [
   {
     img: "./img/msa-showcase.png",
     title: "My Salah App",
-    text: "A prayer habit tracker built with React, used by 500+ active users and rated 4.8★ across app stores. It works fully offline thanks to local SQLite storage and includes a custom-built calendar view to help users spot streaks and stay on track. I focused on a clean interface and smooth animations to keep the experience simple and engaging.",
-    tech: ["ReactJS", "Typescript", "Tailwind CSS", "SQLite", "CapacitorJS"],
+    text: "A prayer habit tracker built with React, used by 1000+ active users and rated 4.8★ across app stores. It works fully offline thanks to local SQLite storage and includes a custom-built calendar view to help users spot streaks and stay on track. I focused on a clean interface and smooth animations to keep the experience simple and engaging.",
+    tech: [
+      "ReactJS",
+      "Typescript",
+      "Tailwind CSS",
+      "SQLite",
+      "Ionic",
+      "CapacitorJS",
+    ],
     linksArray: [
       {
         link: "https://mysalahapp.netlify.app/",
@@ -35,8 +42,16 @@ const projectsArray = [
   {
     img: "./img/mta-showcase.png",
     title: "My Tasbeeh App",
-    text: "A counter application built with React and used by 500+ active users, with a 4.9★ rating across app stores. Designed for offline use with daily reminders and auto-reset features to build consistent habits. I kept the interface clean and implemented end-to-end testing with Cypress.",
-    tech: ["ReactJS", "Typescript", "CSS3", "CapacitorJS", "Cypress"],
+    text: "A counter application built with React and used by 700+ active users, with a 4.9★ rating across app stores. Designed for offline use with daily reminders and auto-reset features to build consistent habits. I kept the interface clean and implemented end-to-end testing with Cypress.",
+    tech: [
+      "ReactJS",
+      "Typescript",
+      "Tailwind CSS",
+      "SQLite",
+      "Ionic",
+      "CapacitorJS",
+      "Cypress",
+    ],
     linksArray: [
       {
         link: "https://mytasbeehapp.netlify.app/",
