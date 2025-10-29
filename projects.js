@@ -78,7 +78,7 @@ const projectsArray = [
   {
     img: "./img/task-manager-showcase.png",
     title: "Task Manager",
-    text: "A full-stack task manager built for a job interview assignment, designed to reflect real-world workflows like status updates and deadlines. I focused on clean UX and wrote unit tests with Jest, hitting 100% coverage on the backend and 97% on the frontend.",
+    text: "A full-stack task manager built for a job interview assignment, designed to reflect real-world workflows such as status updates and deadlines. I focused on clean UX and wrote unit tests with Jest, hitting 100% coverage on the backend and 97% on the frontend.",
     tech: [
       "ReactJS",
       "Express.js",
